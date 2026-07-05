@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Alex Rivera | Creative Developer</title>
+    <meta
+      name="description"
+      content="A modern, responsive portfolio crafted with semantic HTML and advanced CSS3 architecture."
+    />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <div class="background-orb orb-one"></div>
+    <div class="background-orb orb-two"></div>
+
+    <header class="site-header">
+      <div class="container nav-shell">
+        <a class="brand" href="#home">AR</a>
+        <nav class="site-nav" aria-label="Primary navigation">
+          <a href="#about">About</a>
+          <a href="#projects">Projects</a>
+          <a href="#experience">Experience</a>
+          <a href="#contact">Contact</a>
+        </nav>
+        <button class="theme-toggle" id="themeToggle" aria-label="Toggle color theme">
+          <span class="toggle-track">
+            <span class="toggle-thumb"></span>
+          </span>
+        </button>
+      </div>
+    </header>
+
+    <main id="home">
+      <section class="hero container">
+        <div class="hero-copy">
+          <p class="eyebrow">Frontend Engineer • UI Systems • Storytelling</p>
+          <h1>Building elegant digital experiences that feel as fast as they look.</h1>
+          <p class="lead">
+            I design and develop highly polished interfaces that blend strategy, motion,
+            and accessibility into memorable products.
+          </p>
+          <div class="hero-actions">
+            <a class="button primary" href="#projects">Explore Work</a>
+            <a class="button secondary" href="#contact">Start a Project</a>
+          </div>
+          <ul class="hero-highlights">
+            <li>Responsive architecture</li>
+            <li>Design systems</li>
+            <li>Performance-first code</li>
+          </ul>
+        </div>
+
+        <aside class="hero-card" aria-label="Profile summary">
+          <div class="avatar">AR</div>
+          <h2>Alex Rivera</h2>
+          <p>Crafting immersive web experiences for ambitious brands and startups.</p>
+          <div class="stats-grid">
+            <div>
+              <strong>8+</strong>
+              <span>Years</span>
+            </div>
+            <div>
+              <strong>42</strong>
+              <span>Launches</span>
+            </div>
+            <div>
+              <strong>96%</strong>
+              <span>Client Retention</span>
+            </div>
+          </div>
+        </aside>
+      </section>
+
+      <section class="section container" id="about">
+        <div class="section-heading">
+          <p class="eyebrow">About</p>
+          <h2>Built for clarity, speed, and lasting impressions.</h2>
+        </div>
+        <div class="about-grid">
+          <article class="panel">
+            <h3>What I bring</h3>
+            <p>
+              I work at the intersection of design and development, turning complex ideas
+              into intuitive experiences with careful rhythm, accessibility, and visual
+              depth.
+            </p>
+          </article>
+          <article class="panel accent-panel">
+            <h3>Core strengths</h3>
+            <ul class="pill-list">
+              <li>Modern CSS architecture</li>
+              <li>Component-driven UI</li>
+              <li>Motion and interaction</li>
+              <li>Cross-device polish</li>
+            </ul>
+          </article>
+        </div>
+      </section>
+
+      <section class="section container" id="projects">
+        <div class="section-heading">
+          <p class="eyebrow">Selected Work</p>
+          <h2>Recent launches with a cinematic, modern aesthetic.</h2>
+        </div>
+        <div class="projects-grid">
+          <article class="project-card">
+            <h3>Northstar Studio</h3>
+            <p>Reimagined a creative agency site with immersive visuals and a flexible CMS.</p>
+            <a href="#contact">View case study</a>
+          </article>
+          <article class="project-card">
+            <h3>Pulse Commerce</h3>
+            <p>Delivered a highly converting storefront experience with focused UX patterns.</p>
+            <a href="#contact">View case study</a>
+          </article>
+          <article class="project-card">
+            <h3>Nova Health</h3>
+            <p>Built a calm, accessible platform for patients and care teams alike.</p>
+            <a href="#contact">View case study</a>
+          </article>
+        </div>
+      </section>
+
+      <section class="section container" id="experience">
+        <div class="section-heading">
+          <p class="eyebrow">Experience</p>
+          <h2>A calm process with measurable outcomes.</h2>
+        </div>
+        <div class="timeline">
+          <article class="timeline-item">
+            <span>2022 — Present</span>
+            <h3>Senior Product Engineer</h3>
+            <p>Leading front-end systems and scalable UI implementation for venture-backed products.</p>
+          </article>
+          <article class="timeline-item">
+            <span>2018 — 2022</span>
+            <h3>UI Developer</h3>
+            <p>Shaped brand experiences and reusable design systems for digital studios and agencies.</p>
+          </article>
+        </div>
+      </section>
+    </main>
+
+    <footer class="site-footer" id="contact">
+      <div class="container footer-shell">
+        <div>
+          <p class="eyebrow">Let's build something memorable</p>
+          <h2>Ready to bring your next idea to life?</h2>
+        </div>
+        <a class="button primary" href="mailto:alex@rivera.dev">alex@rivera.dev</a>
+      </div>
+    </footer>
+
+    <script src="script.js"></script>
+  </body>
+</html>
